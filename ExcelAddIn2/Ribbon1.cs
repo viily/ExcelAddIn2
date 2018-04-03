@@ -19,7 +19,7 @@ namespace ExcelAddIn2
         private void button2_Click(object sender, RibbonControlEventArgs e)
         {
             // Open Worksheet
-            Excel.Worksheet activeworksheet = Globals.ThisAddIn.Application.ActiveSheet;
+            Excel.Worksheet activeworksheet = Globals.ThisAddIn.Application.ActiveSheet;  
             // Open Worksheet
             Excel.Range actCell = Globals.ThisAddIn.Application.ActiveCell;
             if (actCell.Value2 != null)
